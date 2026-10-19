@@ -1,5 +1,5 @@
 # encoding: utf-8
-require 'packetfu'
+require 'sippy_cup/core_ext/packetfu'
 
 module SippyCup
   class Media
