@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'packetfu', [">= 1.1.13", "< 3.0"]
   s.add_runtime_dependency 'nokogiri', [">= 1.15.0"]
   s.add_runtime_dependency 'activesupport', [">= 3.0"]
+  s.add_runtime_dependency 'logger', ["~> 1.4"] # bundled (not default) gem since Ruby 4.0
   s.add_runtime_dependency 'psych', [">= 3.0"] unless RUBY_PLATFORM == 'java'
 
   s.add_development_dependency 'guard-rspec'
