@@ -1,4 +1,7 @@
 # develop
+
+# [0.7.3](https://github.com/logicsys/sippy_cup/compare/v0.7.2...v0.7.3)
+  * Bugfix: Ruby 3.4 compatibility - work around packetfu 2.0.0's caller-label parsing in StructFu#typecast, which broke all RTP/PCAP media generation
   * Drop support for Ruby < 2.3.0 - Too many gem dependences require Ruby 2.3, so go along with it rather than fight it
   * Require PacketFu >= 1.1.13, 1.1.12 was just broken
 
